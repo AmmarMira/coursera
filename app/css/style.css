@@ -1,0 +1,220 @@
+.huge-headline {
+  font-size: 22px;
+}
+@media only screen and (min-width: 1168px) {
+  .huge-headline {
+    font-size: 100px;
+  }
+}
+
+.xl-h {
+  font-size: 20px;
+}
+@media only screen and (min-width: 1168px) {
+  .xl-h {
+    font-size: 36px;
+  }
+}
+
+.xxl-h {
+  font-size: 25px;
+}
+@media only screen and (min-width: 1168px) {
+  .xxl-h {
+    font-size: 48px;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 20px;
+}
+@media only screen and (min-width: 990px) {
+  h1,
+  .h1 {
+    font-size: 28px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 26px;
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+}
+@media only screen and (min-width: 990px) {
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+}
+@media only screen and (min-width: 990px) {
+  h4,
+  .h4 {
+    font-size: 22px;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 20px;
+}
+
+h6,
+.h6 {
+  font-size: 18px;
+}
+
+p,
+.p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p.sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p.lg {
+  font-size: 18px;
+  font-size: 24px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand,
+.brand-text {
+  font-family: 'Changa One', cursive;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.navbar-default .h1 {
+  line-height: 50px;
+}
+
+.footerContainer {
+  border-top: 1px solid rgba(117, 117, 117, 0.3);
+  padding: 30px 0 30px 0;
+}
+.footerContainer .navbar-brand {
+  color: #757575;
+}
+.footerContainer p {
+  float: left;
+}
+.footerContainer .footerNav li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.footerContainer .footerNav a {
+  color: #757575;
+}
+.footerContainer .footerNav a:hover {
+  color: #428bca;
+}
+.footerContainer .footerNav h6 {
+  color: #333333;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.footerContainer img:first-child {
+  margin-right: 10px;
+}
+
+.hut-banner {
+  background-image: url(img/UNIGE-Banne.jpg);
+  background-size: cover;
+  background-position: 0px -120px;
+  height: 320px;
+  width: 100%;
+}
+.hut-banner .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.hut-banner h1 {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 32px rgba(0, 0, 0, 0.25), 0 1px rgba(0, 0, 0, 0.75);
+  margin-top: 16px;
+}
+.hut-banner .input-group {
+  box-shadow: inset 0 1px #555, 0 0 0 6px rgba(255, 255, 255, 0.5), 0 0 4px 6px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+}
+.hut-banner .form-control, .hut-banner button.btn.btn-default {
+  height: 40px;
+  border-color: #000;
+}
+.hut-banner button.btn.btn-default {
+  background-color: #fff;
+}
+.hut-banner .banner-data {
+  margin-top: 30px;
+}
+.hut-banner .banner-data h3 {
+  color: #fff;
+}
+.hut-banner .banner-data a.h5 {
+  color: #ff0;
+  display: block;
+  padding-top: 6px;
+}
+.hut-banner .banner-data a.h5:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 0, 0.8);
+}
+.hut-banner a.p {
+  color: rgba(255, 255, 255, 0.6);
+  float: right;
+  margin-right: 10px;
+  margin-top: 16px;
+}
+
+.hut-courses h3.hutBannerTitle {
+  text-align: center;
+  margin: 70px 0 20px 0;
+}
+.hut-courses .media-body {
+  display: block;
+  cursor: pointer;
+  margin-top: 5px;
+  color: #757575;
+  max-width: 230px;
+}
+.hut-courses .media-body h6 {
+  color: #428bca;
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+.viewBar {
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0.05);
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+.viewBar a {
+  line-height: 50px;
+}

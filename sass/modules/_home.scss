@@ -1,0 +1,95 @@
+.hut-banner{
+	background-image: url(img/UNIGE-Banne.jpg);
+	background-size: cover;
+	background-position: 0px -120px;
+	height: 320px;
+	width: 100%;
+
+	.overlay{
+		width: 100%;
+		height: 100%;
+		background: rgba($Night,0.3);
+	}
+
+	h1{
+		color: $Default;
+		text-shadow: 0 0 12px rgba(0,0,0,0.5),0 0 32px rgba(0,0,0,0.25),0 1px rgba(0,0,0,0.75);
+		margin-top: 16px;
+	}
+	.input-group{
+		box-shadow: inset 0 1px #555,0 0 0 6px rgba($Default,0.5),0 0 4px 6px rgba($Night,0.25);
+		margin-top: 30px;
+	}
+	.form-control, button.btn.btn-default{
+		height: 40px;
+		border-color: $Night;
+	}
+	button.btn.btn-default{
+		background-color: $Default;
+	}
+
+	.banner-data{
+		margin-top: 30px;
+		h3{
+			color: $Default;
+		}
+		a.h5{
+			color: $SunLight;
+			display: block;
+			padding-top: 6px;
+			&:hover{
+				text-decoration: none;
+				color: rgba($SunLight,0.8);
+			}
+		}
+	}
+		a.p{
+		color: rgba($Default,0.6);
+		float: right;
+		margin-right: 10px;
+		margin-top: 16px;
+
+	}
+}
+	.hut-courses{
+			
+			h3.hutBannerTitle{
+				text-align: center;
+				margin: 70px 0 20px 0;
+			}
+
+		.media-body{
+			display: block;
+			cursor: pointer;
+			margin-top: 5px;
+			color: $GrayText;
+			max-width: 230px;
+
+			h6{
+				color: $Primary;
+				height: 44px;
+				line-height: 22px;
+				overflow: hidden;
+			}
+		}
+	}
+	.viewBar{
+		width: 100%;
+		height: 50px;
+		background-color: $BrightGray;
+		border: 1px solid #e4e4e4;
+		border-radius: 6px;
+		box-shadow: inset 0 0 7px 0 rgba($Night,0.05);
+		margin: 40px 0 20px 0;
+		text-align: center;
+
+		a{
+		line-height: 50px;
+	}
+}
+
+
+
+
+
+
